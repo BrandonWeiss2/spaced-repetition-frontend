@@ -1,0 +1,45 @@
+h2 {
+  text-align: center;
+}
+
+input, label {
+  display:block;
+  border-radius: 4px;
+}
+
+.registerFormSection {
+  background-color: #E4BB97;
+  width: 300px;
+  margin: 10px auto 0 auto;
+  padding: 0 5px 10px 5px;
+  border: 2px solid #834047;
+  border-radius: 4px;
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.registerFormInput {
+  margin: auto;
+}
+
+.registerFormFooter {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.registerFormButton {
+  margin: 10px auto 0 auto;
+  width: 80px;
+  border: 2px solid #834047;
+  border-radius: 4px;
+  color: black;
+}
+
+.loginLink {
+  padding-top: 5px;
+}

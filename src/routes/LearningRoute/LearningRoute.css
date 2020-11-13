@@ -1,0 +1,29 @@
+.learningSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.learningHeader {
+  text-align: center;
+}
+
+.learningMain {
+  text-align: center;
+}
+
+.answerContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.nextWord {
+  font-size: 24px;
+}
+
+input {
+  margin: auto;
+}
+
+button {
+  margin: auto;
+}

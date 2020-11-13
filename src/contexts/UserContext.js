@@ -6,6 +6,7 @@ import IdleService from '../services/idle-service'
 const UserContext = React.createContext({
   user: {},
   error: null,
+  language: '',
   setError: () => {},
   clearError: () => {},
   setUser: () => {},
@@ -105,6 +106,7 @@ export class UserProvider extends Component {
     const value = {
       user: this.state.user,
       error: this.state.error,
+      language: this.state.language,
       setError: this.setError,
       clearError: this.clearError,
       setUser: this.setUser,

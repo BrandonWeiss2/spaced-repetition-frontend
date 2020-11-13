@@ -1,0 +1,42 @@
+h1 {
+  text-align: center;
+}
+
+.headerContainer {
+  text-align: center;
+}
+
+.headerLink {
+  text-decoration: none;
+  color: #584B53;
+}
+
+.loginNav, .logoutNav {
+  display: flex;
+  width: 300px;
+  margin: auto;
+}
+
+.logoutNav {
+  margin-top: 5px;
+}
+
+.navLink {
+  text-align: center;
+  width: 80px;
+  margin: auto;
+  padding: 2px;
+  text-decoration: none;
+  border: 2px solid lightgrey;
+  color: rgb(121, 121, 121);
+  border-radius: 4px;
+}
+
+.navLink:hover {
+  color: #834047;
+  border-color: #834047;
+}
+
+.usernameContainer {
+  font-size: 18px;
+}
