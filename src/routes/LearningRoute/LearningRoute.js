@@ -106,8 +106,8 @@ class LearningRoute extends Component {
               <p>The correct translation for {word.nextWord} was {answer.answer} and you chose {this.state.guess}!</p>
             </div>
             <div className='answerContent'>
-              <span>Correct Count: {answer.wordCorrectCount}</span>
-              <span>Incorrect Count: {answer.wordIncorrectCount}</span>
+              <span>Correct Count: {word.wordCorrectCount}</span>
+              <span>Incorrect Count: {word.wordIncorrectCount}</span>
             </div>
             <div>
               <button onClick={this.hanldeContinue}>Try another word!</button>
