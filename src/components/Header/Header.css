@@ -34,6 +34,7 @@ h1 {
 .navLink:hover {
   color: #834047;
   border-color: #834047;
+  font-weight: 700;
 }
 
 .usernameContainer {
