@@ -1,47 +1,11 @@
-# Spaced Repetition Capstone
+Welcome To Spaced Repetition!
 
-## Setup
+https://spaced-repetition-frontend.vercel.app/register
 
-To setup the application
+Summary: We made learning a new language as easy as possible using an advanced learning strategy called spaced repetition. We have created an app that will allow you to use flashcards to memorize vocab, but we have used an advanced algorithm to determine what flashcard you will see next. The more often you get a word right, the less often you will see the flashcard. The more often you get a word wrong, the more often you will see that flashcard. Using this technique, I'm sure you will be speaking a second or even third language in no time.
 
-1. Fork and clone the project to your machine
-2. `npm install`. This will also install the application *Cypress.io* for running browser integration tests
+Client Repo: https://github.com/BrandonWeiss2/spaced-repetition-frontend Server Repo: https://github.com/BrandonWeiss2/spaced-repetition-backend
 
-The project expects you have the Spaced repetition API project setup and running on http://localhost:8000.
+TECHNOLOGY: Front End - React - Create React App - React Router - HTML5 - CSS3 (scratch - no frameworks)
 
-Find instructions to setup the API here https://github.com/Thinkful-Ed/spaced-repetition-api.
-
-## Running project
-
-This is a `create-react-app` project so `npm start` will start the project in development mode with hot reloading by default.
-
-## Running the tests
-
-This project uses [Cypress IO](https://docs.cypress.io) for integration testing using the Chrome browser.
-
-Cypress has the following expectations:
-
-- You have cypress installed (this is a devDependency of the project)
-- You have your application running at http://localhost:3000.
-  - You can change the address of this expectation in the `./cypress.json` file.
-- Your `./src/config.js` is using http://localhost:8000/api as the `API_ENDPOINT`
-
-To start the tests run the command:
-
-```bash
-npm run cypress:open
-```
-
-On the first run of this command, the cypress application will verify its install. Any other runs after this, the verification will be skipped.
-
-The command will open up the Cypress application which reads tests from the `./cypress/integration/` directory. You can then run individual tests by clicking on the file names or run all tests by clicking the "run all tests" button in the cypress GUI.
-
-Tests will assert against your running localhost client application.
-
-You can also start all of the tests in the command line only (not using the GUI) by running the command:
-
-```bash
-npm run cypress:run
-```
-
-This will save video recordings of the test runs in the directory `./cypress/videos/`.
+Production - Deployed via Vercel
